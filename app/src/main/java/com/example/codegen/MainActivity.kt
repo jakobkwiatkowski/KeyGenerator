@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this, "Kody zostały pomyślnie wygenerowane", Toast.LENGTH_SHORT).show()
         finish()
+        
     }
 
 
