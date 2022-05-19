@@ -12,13 +12,13 @@
         android:layout_width="153dp"
         android:layout_height="51dp"
         android:layout_marginBottom="124dp"
-        android:background="@drawable/btn_color2"
-        android:backgroundTint="#03A9F4"
         android:text="Generuj"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#1E90FF"/>
+
 
     <EditText
         android:id="@+id/NumberOfCodes"
@@ -27,7 +27,7 @@
         android:layout_marginBottom="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Liczba kodów do wygenerowania"
+        android:hint="Liczba kodów do wygenerowania"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/GenerateButton"
         app:layout_constraintEnd_toEndOf="parent"
